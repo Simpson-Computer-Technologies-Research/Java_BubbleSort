@@ -85,7 +85,7 @@ public class Main {
 
             // Sort the array in descending order
             else if (userInput.equals("4")) {
-                System.out.println("4");
+                arr = bubbleSortDescending(arr, n);
             } 
             
             // Exit the program
