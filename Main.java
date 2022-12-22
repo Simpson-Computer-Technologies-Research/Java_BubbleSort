@@ -56,7 +56,7 @@ public class Main {
         String userInput = "";
 
         // While the user doesn't want to quit
-        while (userInput != "5") {
+        while (true) {
             // Print the menu
             System.out.println("Choose an option: ");
             System.out.println("1. Generate random values for the array");
@@ -77,7 +77,7 @@ public class Main {
             else if (userInput.equals("2")) {
                 printArray(arr, n);
             }
-            
+
             // Sort the array in ascending order
             else if (userInput.equals("3")) {
                 arr = bubbleSortAscending(arr, n);
@@ -86,13 +86,13 @@ public class Main {
             // Sort the array in descending order
             else if (userInput.equals("4")) {
                 arr = bubbleSortDescending(arr, n);
-            } 
-            
+            }
+
             // Exit the program
             else if (userInput.equals("5")) {
                 break;
-            } 
-            
+            }
+
             // Else, invalid input
             else {
                 System.out.println("Invalid input");
