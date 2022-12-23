@@ -1,2 +1,2 @@
 # Java Bubble Sort
-Java Bubble Sort Summative Program built in 10 minutes by Arwa Hammam.
+Grade 11 Java Bubble Sort Summative Program built by Arwa Hammam.
